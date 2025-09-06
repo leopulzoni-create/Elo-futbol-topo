@@ -1,5 +1,8 @@
 import streamlit as st
 from auth import verify_user
+from init_db import ensure_schema_and_admin  # ← agregar
+
+ensure_schema_and_admin()  # ← inicializa tablas y admin si falta
 
 st.title("Topo Partidos ⚽")
 
