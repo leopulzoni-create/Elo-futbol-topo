@@ -1,0 +1,6 @@
+streamlit
+sqlite3-binary
+matplotlib
+pandas
+sqlalchemy
+psycopg2-binary
